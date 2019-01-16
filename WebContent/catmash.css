@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* a CSS class to clip an image into a heart shape */
+.heart {
+-webkit-clip-path: polygon(64% 16%, 75% 14%, 86% 17%, 93% 24%, 99% 36%, 99% 47%, 96% 55%, 87% 66%, 78% 76%, 66% 88%, 52% 100%, 40% 88%, 30% 79%, 20% 70%, 7% 56%, 4% 48%, 2% 38%, 6% 27%, 13% 19%, 24% 14%, 37% 15%, 51% 22%);
+clip-path: polygon(64% 16%, 75% 14%, 86% 17%, 93% 24%, 99% 36%, 99% 47%, 96% 55%, 87% 66%, 78% 76%, 66% 88%, 52% 100%, 40% 88%, 30% 79%, 20% 70%, 7% 56%, 4% 48%, 2% 38%, 6% 27%, 13% 19%, 24% 14%, 37% 15%, 51% 22%);
+}
+ 
+/* a CSS class to center a div horizontally */
+.hcenter {
+    position: relative;    
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.image-left {
+	width: 300px;
+	height: 300px;
+	position: relative;
+	float: left;
+	background-color: lightgray;
+}
+
+.image-right {
+	width: 300px;
+	height: 300px;
+	position: relative;
+	float: right;
+	background-color: lightgray;
+}
+
+.limit-image {
+	max-width: 300px;
+	max-height: 300px;
+	left:0; right:0;
+    top:0; bottom:0;
+    margin:auto;
+    position: absolute;
+}
+
+.limit300 {
+	width: 300px;
+	height: 300px;
+	margin-bottom: 20px;
+}
